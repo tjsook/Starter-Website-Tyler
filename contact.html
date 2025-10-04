@@ -9,7 +9,26 @@
     </nav>
     <main>
       <h1 class="page-title">Contact</h1>
-      Hello World! This is my contact info
+      <form id="contact-form">
+        <label for="name"><strong>Name:</strong></label>
+        <input type="text" id="name" name="name" placeholder="Name" required />
+        <label for="email"><strong>Email:</strong></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <label for="messsage"><strong>Message:</strong></label>
+        <textarea
+          id="messsage"
+          name="messsage"
+          placeholder="Message"
+          required
+        ></textarea>
+        <input type="submit" />
+      </form>
     </main>
     <footer class="footer">
       © 2025 <Tyler's Personal Website> | All Rights Reserved
