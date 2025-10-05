@@ -43,6 +43,10 @@ main {
   font-size: 18px;
 }
 
+.desctext {
+  display: block;
+}
+
 .hplist a {
   text-decoration: none;
   color: inherit;
