@@ -14,14 +14,6 @@ document
       .getElementById("music-target")
       .scrollIntoView({ behavior: "smooth", block: "center" });
   });
-document
-  .getElementById("scroll-designer")
-  .addEventListener("click", function (e) {
-    e.preventDefault();
-    document
-      .getElementById("designer-target")
-      .scrollIntoView({ behavior: "smooth", block: "center" });
-  });
 document.getElementById("scroll-human").addEventListener("click", function (e) {
   e.preventDefault();
   document
