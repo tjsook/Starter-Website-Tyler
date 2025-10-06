@@ -5,6 +5,7 @@
   ["scroll-website", "website-target"],
   ["scroll-top", "top-target"],
   ["scroll-objectdetection", "objectdetection-target"],
+  ["scroll-designs", "designs-target"],
 ].forEach(([btn, target]) => {
   const el = document.getElementById(btn);
   const tgt = document.getElementById(target);
