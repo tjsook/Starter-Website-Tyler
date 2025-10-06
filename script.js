@@ -1,5 +1,5 @@
 [
-  ["scroll-hooper", "hooper-target"],
+  ["scroll-friend", "friend-target"],
   ["scroll-musicphile", "music-target"],
   ["scroll-human", "human-target"],
   ["scroll-website", "website-target"],

@@ -76,8 +76,8 @@ main {
 
 .contained-image {
   margin: 0;
-  width: 430px;
-  height: 430px;
+  width: 330px;
+  height: 330px;
   object-position: 70% 30%;
   object-fit: cover;
   border-radius: 40px;
@@ -90,6 +90,16 @@ main {
   box-shadow: 0 15px 16px rgba(0, 0, 0, 0.3);
   object-position: 50% 30%;
   margin-right: 100px;
+}
+
+.scrollable-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 95%;
+  overflow: auto;
+  border: transparent;
+  padding: 10px;
 }
 
 #website-target > .mptext {
