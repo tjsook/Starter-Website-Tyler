@@ -127,10 +127,10 @@ main {
   transition: background 0.2s;
 }
 
-.mptext {
-  font-family: "Monaco", monospace;
+/* .mptext {
+  font-family: "Gill Sans", sans-serif;
   color: white;
-}
+} */
 
 .rounded-square > .mptext {
   margin-top: 10px;
@@ -181,8 +181,9 @@ a:hover {
 
 body {
   background-color: rgb(36, 36, 36);
-  font-family: "Monaco", monospace;
+  font-family: "Gill Sans", sans-serif;
   color: white;
+  letter-spacing: -0.5px;
 }
 .footer {
   margin-top: -50px;
@@ -196,6 +197,20 @@ body {
   z-index: 100;
 }
 
-.footer > .mptext {
-  font-size: 8px;
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.footer > .hplist {
+  margin-top: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  font-size: 10px;
 }
