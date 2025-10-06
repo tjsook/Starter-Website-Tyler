@@ -20,3 +20,9 @@ document.getElementById("scroll-human").addEventListener("click", function (e) {
     .getElementById("human-target")
     .scrollIntoView({ behavior: "smooth", block: "center" });
 });
+document.getElementById("scroll-top").addEventListener("click", function (e) {
+  e.preventDefault();
+  document
+    .getElementById("top-target")
+    .scrollIntoView({ behavior: "smooth", block: "center" });
+});

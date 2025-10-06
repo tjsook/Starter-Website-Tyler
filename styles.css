@@ -44,9 +44,22 @@ main {
   border-radius: 30px;
   box-shadow: 0 15px 16px rgba(0, 0, 0, 0.15);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: row;
+  gap: 0;
+}
+
+.contained-image {
+  margin: 0;
+  width: 430px;
+  height: 430px;
+  object-position: 70% 30%;
+  object-fit: cover;
+  border-radius: 40px;
+  aspect-ratio: 1/1;
+  display: block;
+  margin: auto;
 }
 
 .back-button {
@@ -59,6 +72,7 @@ main {
   left: 30px;
   right: 30px;
   transform: none;
+  z-index: 200;
 }
 
 .back-button a {
@@ -109,6 +123,7 @@ main {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
