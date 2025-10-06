@@ -15,3 +15,19 @@
     });
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const middleName = document.querySelector(".middle-name");
+  if (middleName) {
+    const originalText = middleName.textContent;
+    let toggled = false;
+    middleName.addEventListener("click", function () {
+      if (!toggled) {
+        middleName.textContent = "진수";
+      } else {
+        middleName.textContent = originalText;
+      }
+      toggled = !toggled;
+    });
+  }
+});
