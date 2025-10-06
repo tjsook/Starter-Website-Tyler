@@ -1,28 +1,17 @@
-document
-  .getElementById("scroll-hooper")
-  .addEventListener("click", function (e) {
-    e.preventDefault();
-    document
-      .getElementById("hooper-target")
-      .scrollIntoView({ behavior: "smooth", block: "center" });
-  });
-document
-  .getElementById("scroll-musicphile")
-  .addEventListener("click", function (e) {
-    e.preventDefault();
-    document
-      .getElementById("music-target")
-      .scrollIntoView({ behavior: "smooth", block: "center" });
-  });
-document.getElementById("scroll-human").addEventListener("click", function (e) {
-  e.preventDefault();
-  document
-    .getElementById("human-target")
-    .scrollIntoView({ behavior: "smooth", block: "center" });
-});
-document.getElementById("scroll-top").addEventListener("click", function (e) {
-  e.preventDefault();
-  document
-    .getElementById("top-target")
-    .scrollIntoView({ behavior: "smooth", block: "center" });
+[
+  ["scroll-hooper", "hooper-target"],
+  ["scroll-musicphile", "music-target"],
+  ["scroll-human", "human-target"],
+  ["scroll-website", "website-target"],
+  ["scroll-top", "top-target"],
+  ["scroll-objectdetection", "objectdetection-target"],
+].forEach(([btn, target]) => {
+  const el = document.getElementById(btn);
+  const tgt = document.getElementById(target);
+  if (el && tgt) {
+    el.addEventListener("click", function (e) {
+      e.preventDefault();
+      tgt.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  }
 });

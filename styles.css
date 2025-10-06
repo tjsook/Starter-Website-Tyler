@@ -7,6 +7,7 @@ main {
   margin-bottom: 60px;
 }
 
+.main-portfolio,
 .main-blog {
   justify-content: flex-start;
   height: fit-content;
@@ -31,6 +32,7 @@ main {
   position: relative;
 }
 
+.main-portfolio > .rounded-square,
 .main-blog > .rounded-square {
   margin: 100px;
   margin-top: 18vh;
@@ -50,6 +52,14 @@ main {
   gap: 0;
 }
 
+#website-target .website-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
 .contained-image {
   margin: 0;
   width: 430px;
@@ -60,6 +70,16 @@ main {
   aspect-ratio: 1/1;
   display: block;
   margin: auto;
+}
+
+.image-link > .contained-image {
+  box-shadow: 0 15px 16px rgba(0, 0, 0, 0.3);
+  object-position: 50% 30%;
+  margin-right: 100px;
+}
+
+#website-target > .mptext {
+  margin-left: 100px;
 }
 
 .back-button {
@@ -129,6 +149,11 @@ a {
 a:hover {
   transition: 200ms;
   background-color: rgb(116, 116, 116);
+}
+
+.image-link:hover {
+  background-color: transparent !important;
+  
 }
 
 body {

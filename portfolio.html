@@ -5,9 +5,58 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class = "main-portfolio"></main>
+    <main class="main-portfolio">
+      <div class="back-button">
+        <a href="index.html" style="text-decoration: none">home</a>
+        <a
+          id="scroll-top"
+          href="#"
+          style="text-decoration: none; margin-left: 20px"
+          >back up top</a
+        >
+      </div>
+      <div class="rounded-square" id="top-target">
+        <h1 class="mptext">my portfolio</h1>
+        <p class="desctext" style="margin-bottom: 30px">view my works:</p>
+        <ul class="hplist" style="margin-bottom: 30px">
+          <li class="btext">
+            <a href="#" id="scroll-website">my website</a>
+          </li>
+          <li class="btext">
+            <a href="#" id="scroll-objectdetection"
+              >object detection - presentation</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="website-target" class="rounded-square-children">
+        <div class="website-text-block">
+          <h1 class="mptext">tjsook.github.io:</h1>
+          <p class="desctext">
+            My first project programmed in HTML, CSS, and JS.
+            <br /><br />Utilized
+            <a
+              href="https://calpoly.hack4impact.org/"
+              style="text-decoration: underline"
+              >hack4impact's</a
+            >
+            starter pack to learn fundamentals of HTML and CSS.
+          </p>
+        </div>
+        <div class="website-text-block">
+          <a href="https://tjsook.github.io/" class="image-link">
+            <img src="assets/webthumbnail.png" class="contained-image"
+          /></a>
+        </div>
+      </div>
+      <div id="objectdetection-target" class="rounded-square">
+        <p class="desctext">wip.</p>
+      </div>
+    </main>
+
     <footer class="footer">
-      <p class ="mptext">© 2025 tjsook.github.io | All Rights Reserved</p>
+      <p class="mptext">© 2025 tjsook.github.io | All Rights Reserved</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
