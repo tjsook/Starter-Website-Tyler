@@ -181,9 +181,9 @@ a:hover {
 
 body {
   background-color: rgb(36, 36, 36);
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Verdana", sans-serif;
   color: white;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.8px;
 }
 .footer {
   margin-top: -50px;
